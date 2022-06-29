@@ -55,9 +55,7 @@ def convertTo_12_DigitOntlNumber ( pPhoneNum):
 
 #def sendSMS(pToStr, pAlertMessage): 
 #        
-#    account = "AC2414df6119a0d3b4fafae84416e4a2f3"
-#    token = "458668728715b99595a0942fcd893c45"
-#    #toStr = "+14087582044" 
+
 #    toStr = "+17186184028" 
 #    fromStr = "+14083421197"
 #    
@@ -80,7 +78,7 @@ def sendEmail(pTargetAlertRecipient, pAlertMessage ):
     logger.info('About to sent email to '+ pTargetAlertRecipient) 
 
     gmail_user = "noti.lashkar"
-    gmail_pwd = "N0tpass2" 
+    gmail_pwd = XXXXXXX
     FROM = "noti.lashkar@gmail.com"
     SUBJECT = "Notification from FinMonster_v1_DSE" 
 
@@ -108,9 +106,9 @@ def sendEmail(pTargetAlertRecipient, pAlertMessage ):
 def sendFCM(pTargetAlertRecipient, p_ticker, p_currentP, p_percentChnage, p_targetP, p_date, p_time, p_priority ):
 
 
-    api_key="AIzaSyAY5l0-sK65UOBcFp2aLDCGRR_NlNYKmL4"
+    api_key="XXXXX
     serverKey ="AAAA1-gsgdk:APA91bEzlt_0DKVgEhOCurnlo19k-acbNNhZ65GMzZlu26UW5IvxLs93a4pKnU6bMHdwmfmynmkoEKosYx9bx8pSbfOPlN33Ttn-peJ3INENcFduWjYL266_zW6vxoLp7h57ChpTvFYQ"
-    appID = "1:927313199577:android:1e66fc4cede0b84a"
+    appID = "XXXXX
     pkg_name = "com.s3.assoandlash.notification_aug15"
     senderId = "927313199577"
     localserverKey = "AIzaSyAKBnmE9n7tJbTle6Ez-kTCIND7WS0okQY"
